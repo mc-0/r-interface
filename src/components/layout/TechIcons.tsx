@@ -1,5 +1,5 @@
 import React from 'react';
-import { BACKEND, WEB, DATABASES, ML, CICD_CLOUD, TOOLS } from '../../lib/constants/icons';
+import { ICONS } from '../../lib/constants/icons';
 
 const IconGroup = ({ title, icons }) => (
     <div className="mb-8">
@@ -8,7 +8,7 @@ const IconGroup = ({ title, icons }) => (
             {icons.map((Icon, index) => (
                 <Icon
                     key={index}
-                    className="w-16 h-16 text-gray-700 hover:text-blue-600 transition-colors"
+                    className="w-14 h-14 text-gray-700 hover:text-blue-600 transition-colors"
                 />
             ))}
         </div>
@@ -17,12 +17,7 @@ const IconGroup = ({ title, icons }) => (
 
 const TechIcons = () => {
     const groups = [
-        { title: 'Backend', icons: BACKEND },
-        { title: 'Web Development', icons: WEB },
-        { title: 'Databases', icons: DATABASES },
-        { title: 'Machine Learning', icons: ML },
-        { title: 'CI/CD & Cloud', icons: CICD_CLOUD },
-        { title: 'Tools', icons: TOOLS },
+        { title: 'Backend', icons: ICONS },
     ];
 
     return (

@@ -1,6 +1,7 @@
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList, NavigationMenuLink, NavigationMenuTrigger, NavigationMenuContent } from '../ui/navigation-menu'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { navItems } from '../../lib/constants/navigation'
+import TechIcons from "@/src/components/layout/TechIcons";
 
 export default function Header() {
     return (

@@ -6,12 +6,19 @@ import {
     SiJira, SiGit, SiPostman, SiNpm, SiGraphql, SiGradle, SiApachemaven,
     SiVim, SiTerraform, SiTensorflow, SiWebstorm, SiSwagger, SiTailwindcss, SiNextdotjs,
     SiGooglecloud, SiNumpy, SiPandas,
-    SiPytorch, SiScikitlearn, SiJupyter, SiFossa, SiSonarqube, SiSplunk,
+    SiPytorch, SiScikitlearn, SiJupyter, SiFossa, SiSonarqube,
     SiClion, SiDatagrip, SiIntellijidea,   SiPycharm, } from 'react-icons/si';
 import { FaJava, FaAws } from 'react-icons/fa';
-import { VscCode } from "react-icons/vsc";
+import { VscVscodeInsiders } from "react-icons/vsc";
 
-export const BACKEND = [
+export const ICONS = [
+    FaJava,
+    SiSpring,
+    SiSpringboot,
+    SiIntellijidea,
+    SiGradle,
+    SiApachemaven,
+    SiGraphql,
     SiPython,
     SiFastapi,
     SiFlask,
@@ -20,18 +27,6 @@ export const BACKEND = [
     SiCplusplus,
     SiCmake,
     SiClion,
-    FaJava,
-    SiSpring,
-    SiSpringboot,
-    SiIntellijidea,
-    SiGradle,
-    SiApachemaven,
-    SiGraphql,
-
-
-]
-
-export const WEB = [
     SiJavascript,
     SiTypescript,
     SiCss3,
@@ -40,28 +35,19 @@ export const WEB = [
     SiReact,
     SiAngular,
     SiTailwindcss,
-    VscCode,
+    VscVscodeInsiders,
     SiNextdotjs,
     SiNodedotjs,
     SiNpm,
-]
-
-export const DATABASES = [
     SiPostgresql,
     SiRedis,
-    SiDatagrip
-]
-
-export const ML = [
+    SiDatagrip,
     SiPytorch,
     SiTensorflow,
     SiScikitlearn,
     SiJupyter,
     SiNumpy,
-    SiPandas
-]
-
-export const CICD_CLOUD = [
+    SiPandas,
     FaAws,
     SiGooglecloud,
     SiTerraform,
@@ -69,17 +55,13 @@ export const CICD_CLOUD = [
     SiKubernetes,
     SiTekton,
     SiJenkins,
-]
-
-export const TOOLS = [
     SiSwagger,
-    SiJira,
     SiPostman,
     SiGit,
     SiGnubash,
     SiLinux,
     SiVim,
-    SiSplunk,
     SiSonarqube,
-    SiFossa
+    SiFossa,
+    SiJira
 ]
